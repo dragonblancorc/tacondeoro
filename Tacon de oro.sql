@@ -112,3 +112,23 @@ VALUES
 ('C3', 'Complemento',  15, 'Guantes1', 'Lana', 70, 'C2.png', 'Guantes', 6),
 ('C4', 'Complemento',  10, 'Guantes2 manoplas', 'Lana', 60, 'C3.png', 'Guantes', 7)
 ;
+
+-- TarjetasBancarias
+INSERT INTO `tarjetabancaria`
+(numero, idSocio)
+VALUES
+('155146824674', '1'),
+('513546519814', '2'),
+('541656518465', '3'),
+('651986598518', '4')
+;
+
+-- Empresatransporte
+INSERT INTO `empresatransporte`
+(nombre, CIF, domicilioFiscal)
+VALUES
+('puntapie', '065415826T', 'Calle Las Cruces Nº5'),
+('yoyo', '135695169U', 'Avinida La Nueva Nº38'),
+('amigofiesta', '385732245Y', 'Calle Los Catolicos Nº23')
+;
+
